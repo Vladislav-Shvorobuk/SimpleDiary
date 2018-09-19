@@ -12,5 +12,6 @@
   </head>
   <body>
   ${info}
+  <p>Hello</p>
   </body>
 </html>
