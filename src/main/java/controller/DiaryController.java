@@ -11,6 +11,6 @@ public class DiaryController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String getDiary (ModelMap model) {
         model.addAttribute("info", "WORK WORK!!!");
-        return "index";
+        return "diary";
     }
 }
