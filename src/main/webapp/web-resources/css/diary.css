@@ -1,0 +1,12 @@
+@import "general.scss";
+
+
+ .container{
+    height: 700px;
+    width: 1133px;
+    border: 5px solid black;
+    margin: auto;
+
+}
+
+
