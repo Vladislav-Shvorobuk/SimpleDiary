@@ -11,16 +11,19 @@
 
     <!--<context:property-placeholder location="classpath:vsesvit.properties"/>-->
 
-    <context:component-scan base-package="controller" />
+
+    <mvc:annotation-driven />
+    <context:component-scan base-package="base_package"/>
 
 
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
             <property name = "prefix" value = "/views/" />
             <property name = "suffix" value = ".jsp" />
     </bean>
 
     <mvc:resources mapping="/resources/**" location="/web-resources/" />
-    <mvc:annotation-driven />
+
     <!--<mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/" />-->
 
 </beans>
