@@ -37,7 +37,6 @@
             <div class="full_date">05.08.2018</div>
             <div class="month">Серпень</div>
             <select name="" id="chooseHour">
-                <option value=""> 8.00</option>
                 <option value=""> 9.00</option>
                 <option value="">10.00</option>
                 <option value="">11.00</option>
@@ -48,8 +47,6 @@
                 <option value="">16.00</option>
                 <option value="">17.00</option>
                 <option value="">18.00</option>
-                <option value="">19.00</option>
-                <option value="">20.00</option>
             </select>
             <form action="">
                 <textarea  avtofocus maxlength="80" cols="33" rows="3"></textarea>

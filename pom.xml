@@ -17,6 +17,7 @@
         <jdk.version>1.8</jdk.version>
         <java.version>1.8</java.version>
         <spring.version>4.2.0.RELEASE</spring.version>
+        <hibernate.version>5.3.3.Final</hibernate.version>
         <!--<node.version>v8.12.0</node.version>-->
         <!--<npm.version>3.8.9</npm.version>-->
 
@@ -44,6 +45,12 @@
 
     <dependency>
         <groupId>org.springframework</groupId>
+        <artifactId>spring-context-support</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework</groupId>
         <artifactId>spring-web</artifactId>
         <version>${spring.version}</version>
     </dependency>
@@ -56,14 +63,32 @@
 
     <dependency>
         <groupId>org.springframework</groupId>
-        <artifactId>spring-context-support</artifactId>
+        <artifactId>spring-orm</artifactId>
         <version>${spring.version}</version>
     </dependency>
 
     <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-orm</artifactId>
-        <version>${spring.version}</version>
+        <groupId>javax</groupId>
+        <artifactId>javaee-web-api</artifactId>
+        <version>7.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.38</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>${hibernate.version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-entitymanager</artifactId>
+        <version>${hibernate.version}</version>
     </dependency>
 
 
