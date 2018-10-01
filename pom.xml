@@ -18,6 +18,7 @@
         <java.version>1.8</java.version>
         <spring.version>4.2.0.RELEASE</spring.version>
         <hibernate.version>5.3.3.Final</hibernate.version>
+        <mysql-connector-java.version>8.0.12</mysql-connector-java.version>
         <!--<node.version>v8.12.0</node.version>-->
         <!--<npm.version>3.8.9</npm.version>-->
 
@@ -30,6 +31,18 @@
 
 
 <dependencies>
+
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.5.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>2.5.0</version>
+    </dependency>
+
 
     <dependency>
         <groupId>org.springframework</groupId>
@@ -70,13 +83,13 @@
     <dependency>
         <groupId>javax</groupId>
         <artifactId>javaee-web-api</artifactId>
-        <version>7.0</version>
+        <version>8.0</version>
     </dependency>
 
     <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>5.1.38</version>
+        <version>${mysql-connector-java.version}</version>
     </dependency>
 
     <dependency>

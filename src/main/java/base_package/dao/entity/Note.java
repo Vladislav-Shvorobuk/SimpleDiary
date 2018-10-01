@@ -1,17 +1,16 @@
 package base_package.dao.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "note_container")
+@IdClass(NotePrimaryKey.class)
 public class Note {
 
     @Id
     @Column(name = "_day")
     private String day;
+    @Id
     @Column(name = "_time")
     private String time;
     @Column(name = "note")

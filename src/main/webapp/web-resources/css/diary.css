@@ -73,16 +73,17 @@
 .left .left_header .full_date {
   position: absolute;
   font-size: 13px;
-  top: 60px;
+  top: 68px;
   left: 121px;
 }
 .left .left_header .month {
-  position: absolute;
-  font-size: 20px;
-  font-weight: bold;
-  top: 40px;
-  left: 420px;
-}
+   position: absolute;
+   font-size: 20px;
+   font-weight: bold;
+   top: 40px;
+   left: 420px;
+ }
+
 .left .left_header select {
   position: absolute;
   top: 68px;

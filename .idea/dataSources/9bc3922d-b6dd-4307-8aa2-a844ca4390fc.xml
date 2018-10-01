@@ -824,13 +824,13 @@
     </column>
     <column id="207" parent="205" name="_time">
       <Position>2</Position>
-      <DataType>char(2)|0s</DataType>
+      <DataType>char(5)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="208" parent="205" name="note">
       <Position>3</Position>
-      <DataType>char(1)|0s</DataType>
+      <DataType>char(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>

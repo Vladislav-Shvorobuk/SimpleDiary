@@ -49,7 +49,7 @@
                 <option value="">18.00</option>
             </select>
             <form action="">
-                <textarea  avtofocus maxlength="80" cols="33" rows="3"></textarea>
+                <textarea avtofocus maxlength="80" cols="33" rows="3"></textarea>
             </form>
 
 

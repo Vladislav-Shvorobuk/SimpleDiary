@@ -14,7 +14,7 @@ public class NoteDaoImpl implements NoteDao {
 
     public void createNote(Note note) {
 
-        sessionFactory.getCurrentSession().persist(note);
+        sessionFactory.getCurrentSession().saveOrUpdate(note);
     }
 
 }
