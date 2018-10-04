@@ -1,16 +1,24 @@
 "use strict";
 $(function(){
-
+    let day;
 
     $("#myCalendar-1").ionCalendar({
         lang: "uk",                     // язык календаря
         sundayFirst: false,             // первый день недели
         years: "80",                    // диапазон лет
         format: "DD.MM.YYYY",           // формат возвращаемой даты
-        onClick: function(date){        // клик по дням вернет сюда дату
+        onReady: function(date){
+            day = date;
+            let currentTime = moment(date, "DD.MM.YYYY", "uk");
+            $(".day").text(currentTime.format("dddd"));
+            $(".date").text(currentTime.date());
+            $(".month").text(currentTime.format("MMMM"));
+            $(".full_date").text(date);
             console.log(date);
         }
+
     });
+
 
     let texarea = $("textarea");
 
@@ -21,7 +29,6 @@ $(function(){
 
           let time =  $("#chooseHour option:selected").text();
           let note = $("textarea").val();
-          let day = "29.09.2018";
 
           $.ajax({
               url: "/note",
@@ -37,7 +44,7 @@ $(function(){
         }
 
     })
-   
 
 
-})
+
+});

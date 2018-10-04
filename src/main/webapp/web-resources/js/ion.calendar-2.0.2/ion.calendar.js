@@ -85,7 +85,6 @@
                 };
 
                 var prepareData = function(){
-                    // start date
                     if(settings.startDate) {
                         if(settings.format.indexOf("L") >= 0) {
                             timeSelected = moment(settings.startDate, "YYYY.MM.DD").locale(settings.lang);

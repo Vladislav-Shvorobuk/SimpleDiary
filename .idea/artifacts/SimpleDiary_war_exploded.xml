@@ -39,6 +39,58 @@
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:5.3.3.Final" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel:6.5.2" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-core:6.26.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:source-map:0.5.7" />
+          <element id="library" level="project" name="babel" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:private:0.1.8" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:slash:1.0.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-code-frame:6.26.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:chalk:1.1.3" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:escape-string-regexp:1.0.5" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:strip-ansi:3.0.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:ansi-regex:2.1.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:supports-color:2.0.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:has-ansi:2.0.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:ansi-styles:2.2.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:esutils:2.0.2" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:js-tokens:3.0.2" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-generator:6.26.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:trim-right:1.0.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:jsesc:1.3.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:detect-indent:4.0.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:repeating:2.0.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:is-finite:1.0.2" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:number-is-nan:1.0.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:debug:2.6.9" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:ms:2.0.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-register:6.26.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:home-or-tmp:2.0.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:os-homedir:1.0.2" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:os-tmpdir:1.0.2" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:source-map-support:0.4.18" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:mkdirp:0.5.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:minimist:0.0.8" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babylon:7.0.0-beta.27" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-messages:6.23.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-types:6.26.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:to-fast-properties:1.0.3" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-template:6.26.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-traverse:6.26.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:globals:9.18.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:invariant:2.2.4" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:loose-envify:1.4.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:convert-source-map:1.5.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:minimatch:3.0.4" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:brace-expansion:1.1.11" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:balanced-match:1.0.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:concat-map:0.0.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:json5:0.5.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:lodash:4.17.11" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:path-is-absolute:1.0.1" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-runtime:6.26.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:core-js:3.0.0-beta.3" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:regenerator-runtime:0.11.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

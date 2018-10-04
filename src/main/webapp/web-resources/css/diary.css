@@ -61,32 +61,32 @@
   font-size: 60px;
   font-weight: bold;
   left: 64px;
-  top: 20px;
+  top: 24px;
 }
 .left .left_header .day {
   position: absolute;
   font-size: 20px;
   font-weight: bold;
   top: 40px;
-  left: 120px;
+  left: 140px;
 }
 .left .left_header .full_date {
   position: absolute;
   font-size: 13px;
   top: 68px;
-  left: 121px;
+  left: 141px;
 }
 .left .left_header .month {
    position: absolute;
    font-size: 20px;
    font-weight: bold;
-   top: 40px;
-   left: 420px;
+   top: 38px;
+   right: -505px;
  }
 
 .left .left_header select {
   position: absolute;
-  top: 68px;
+  top: 64px;
   left: 446px;
 }
 .left .left_header select:active, .left .left_header select:hover {

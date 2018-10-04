@@ -34,7 +34,7 @@
 
             <div class="date">5</div>
             <div class="day">П'ятниця</div>
-            <div class="full_date">05.08.2018</div>
+            <div class="full_date"></div>
             <div class="month">Серпень</div>
             <select name="" id="chooseHour">
                 <option value=""> 9.00</option>
