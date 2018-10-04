@@ -22,7 +22,7 @@
         <property name = "suffix" value = ".jsp" />
     </bean>
 
-    <mvc:resources mapping="/resources/**" location="/web-resources/" />
+    <mvc:resources mapping="/web-resources/**" location="/web-resources/" />
 
     <!--<mvc:resources mapping="/webjars/**" location="classpath:/META-INF/resources/webjars/" />-->
 

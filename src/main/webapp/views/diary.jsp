@@ -7,20 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link rel="stylesheet" href="resources/css/normalize.css">
-    <link rel="stylesheet" href="resources/css/ion.calendar-2.0.2/ion.calendar.css">
-    <link rel="stylesheet" href="resources/css/diary.css">
+    <link rel="stylesheet" href="web-resources/css/normalize.css">
+    <link rel="stylesheet" href="web-resources/css/ion.calendar-2.0.2/ion.calendar.css">
+    <link rel="stylesheet" href="web-resources/css/diary.css">
 
-    <link rel="shortcut icon" type="text/vnd.microsoft.icon" href="resources/images/favicon.ico">
+    <link rel="shortcut icon" type="text/vnd.microsoft.icon" href="web-resources/images/favicon.ico">
 
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
 
-    <script src="resources/js/ion.calendar-2.0.2/moment-with-locales.min.js"></script>
-    <script src="resources/js/ion.calendar-2.0.2/ion.calendar.js"></script>
-    <script src="resources/js/diary.js"></script>
+    <script src="web-resources/js/ion.calendar-2.0.2/moment-with-locales.min.js"></script>
+    <script src="web-resources/js/ion.calendar-2.0.2/ion.calendar.js"></script>
+    <script src="web-resources/js/diary.js"></script>
 
     <title>Simple Diary</title>
 
@@ -49,7 +49,7 @@
                 <option value="">18.00</option>
             </select>
             <form action="">
-                <textarea avtofocus maxlength="80" cols="33" rows="3"></textarea>
+                <textarea maxlength="80" cols="33" rows="3"></textarea>
             </form>
 
 
