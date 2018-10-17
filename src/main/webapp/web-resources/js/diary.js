@@ -15,6 +15,7 @@ $(function(){
             $(".month").text(currentTime.format("MMMM"));
             $(".full_date").text(date);
             console.log(date);
+
         }
 
     });

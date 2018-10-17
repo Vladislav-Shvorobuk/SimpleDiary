@@ -1,0 +1,22 @@
+{
+  "name": "web-resources",
+  "description": "Useful and simple diary",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'build script executed'",
+    "start": "gulp browser-sync",
+    "watch": "gulp watch:sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^4.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.0",
+    "gulp-sass": "^4.0.1"
+  }
+}

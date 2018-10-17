@@ -42,7 +42,7 @@
           <element id="library" level="project" name="Maven: org.webjars.npm:babel:6.5.2" />
           <element id="library" level="project" name="Maven: org.webjars.npm:babel-core:6.26.0" />
           <element id="library" level="project" name="Maven: org.webjars.npm:source-map:0.5.7" />
-          <element id="library" level="project" name="babel" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:babel-helpers:6.24.1" />
           <element id="library" level="project" name="Maven: org.webjars.npm:private:0.1.8" />
           <element id="library" level="project" name="Maven: org.webjars.npm:slash:1.0.0" />
           <element id="library" level="project" name="Maven: org.webjars.npm:babel-code-frame:6.26.0" />

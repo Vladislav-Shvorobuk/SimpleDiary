@@ -1,0 +1,7 @@
+target
+*.iml
+.idea
+
+
+/src/main/webapp/web-resources/node
+/src/main/webapp/web-resources/node_modules

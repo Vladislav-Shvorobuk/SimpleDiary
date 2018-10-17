@@ -20,14 +20,14 @@
         <mysql-connector-java.version>8.0.12</mysql-connector-java.version>
 
 
+                      <!--node & npm-->
+        <node.version>v8.12.0</node.version>
+        <npm.version>3.8.9</npm.version>
 
-        <!--<node.version>v8.12.0</node.version>-->
-        <!--<npm.version>3.8.9</npm.version>-->
-
-         <!--&lt;!&ndash;Maven plugins properties&ndash;&gt;-->
-        <!--<frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>-->
-        <!--<maven-war-plugin.version>3.2.2</maven-war-plugin.version>-->
-        <!--<maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>-->
+         <!--Maven plugins properties-->
+        <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
+        <maven-war-plugin.version>3.2.2</maven-war-plugin.version>
+        <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
 
     </properties>
 
@@ -126,14 +126,14 @@
 
 
 </dependencies>
-<!--<build>-->
+<build>
 
-    <!--<plugins>-->
+    <plugins>
 
-        <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-war-plugin</artifactId>-->
-            <!--<version>${maven-war-plugin.version}</version>-->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>${maven-war-plugin.version}</version>
 
             <!--<configuration>-->
                 <!--<warSourceDirectory>src/main/webapp</warSourceDirectory>-->
@@ -141,76 +141,76 @@
                 <!--<failOnMissingWebXml>false</failOnMissingWebXml>-->
             <!--</configuration>-->
 
-        <!--</plugin>-->
+        </plugin>
 
-        <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-compiler-plugin</artifactId>-->
-            <!--<version>${maven-compiler-plugin.version}</version>-->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>${maven-compiler-plugin.version}</version>
 
-            <!--<configuration>-->
-                <!--<source>${jdk.version}</source>-->
-                <!--<target>${jdk.version}</target>-->
-            <!--</configuration>-->
+            <configuration>
+                <source>${jdk.version}</source>
+                <target>${jdk.version}</target>
+            </configuration>
 
-        <!--</plugin>-->
+        </plugin>
 
-        <!--<plugin>-->
-            <!--<groupId>com.github.eirslett</groupId>-->
-            <!--<artifactId>frontend-maven-plugin</artifactId>-->
-            <!--<version>${frontend-maven-plugin.version}</version>-->
+        <plugin>
+            <groupId>com.github.eirslett</groupId>
+            <artifactId>frontend-maven-plugin</artifactId>
+            <version>${frontend-maven-plugin.version}</version>
 
-            <!--<configuration>-->
-            <!--<workingDirectory>src/main/webapp/web-resources</workingDirectory>-->
-            <!--<installDirectory>src/main/webapp/web-resources</installDirectory>-->
-            <!--</configuration>-->
+            <configuration>
+            <workingDirectory>src/main/webapp/web-resources</workingDirectory>
+            <installDirectory>src/main/webapp/web-resources</installDirectory>
+            </configuration>
 
-            <!--<executions>-->
+            <executions>
+                <execution>
+                    <id>install node and npm</id>
+                    <goals>
+                        <goal>install-node-and-npm</goal>
+                    </goals>
+                    <configuration>
+                        <nodeVersion>${node.version}</nodeVersion>
+                        <nodeDownloadRoot>https://nodejs.org/dist/</nodeDownloadRoot>
+                        <npmVersion>${npm.version}</npmVersion>
+                        <npmDownloadRoot>https://registry.npmjs.org/npm/-/</npmDownloadRoot>
+                    </configuration>
+                </execution>
+                <execution>
+                    <id>npm install</id>
+                    <goals>
+                        <goal>npm</goal>
+                    </goals>
+                    <configuration>
+                        <arguments>install</arguments>
+                    </configuration>
+                </execution>
+                <execution>
+                    <id>npm run build</id>
+                    <goals>
+                        <goal>npm</goal>
+                    </goals>
+                    <configuration>
+                        <arguments>run build</arguments>
+                    </configuration>
+                </execution>
                 <!--<execution>-->
-                    <!--<id>install node and npm</id>-->
-                    <!--<goals>-->
-                        <!--<goal>install-node-and-npm</goal>-->
-                    <!--</goals>-->
-                    <!--<configuration>-->
-                        <!--<nodeVersion>${node.version}</nodeVersion>-->
-                        <!--<nodeDownloadRoot>https://nodejs.org/dist/</nodeDownloadRoot>-->
-                        <!--<npmVersion>${npm.version}</npmVersion>-->
-                        <!--<npmDownloadRoot>https://registry.npmjs.org/npm/-/</npmDownloadRoot>-->
-                    <!--</configuration>-->
-                <!--</execution>-->
-                <!--<execution>-->
-                    <!--<id>npm install</id>-->
+                    <!--<id>npm test</id>-->
                     <!--<goals>-->
                         <!--<goal>npm</goal>-->
                     <!--</goals>-->
+                    <!--<phase>test</phase>-->
                     <!--<configuration>-->
-                        <!--<arguments>install</arguments>-->
+                        <!--<arguments>test</arguments>-->
                     <!--</configuration>-->
                 <!--</execution>-->
-                <!--<execution>-->
-                    <!--<id>npm run build</id>-->
-                    <!--<goals>-->
-                        <!--<goal>npm</goal>-->
-                    <!--</goals>-->
-                    <!--<configuration>-->
-                        <!--<arguments>run build</arguments>-->
-                    <!--</configuration>-->
-                <!--</execution>-->
-                <!--&lt;!&ndash;<execution>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<id>npm test</id>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<goals>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<goal>npm</goal>&ndash;&gt;-->
-                    <!--&lt;!&ndash;</goals>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<phase>test</phase>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<configuration>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<arguments>test</arguments>&ndash;&gt;-->
-                    <!--&lt;!&ndash;</configuration>&ndash;&gt;-->
-                <!--&lt;!&ndash;</execution>&ndash;&gt;-->
-            <!--</executions>-->
-        <!--</plugin>-->
+            </executions>
+        </plugin>
 
-    <!--</plugins>-->
-<!--</build>-->
+    </plugins>
+</build>
 
 
 </project>

@@ -32,10 +32,10 @@
 
         <section class="left_header">
 
-            <div class="date">5</div>
-            <div class="day">П'ятниця</div>
+            <div class="date"></div>
+            <div class="day"></div>
             <div class="full_date"></div>
-            <div class="month">Серпень</div>
+            <div class="month"></div>
             <select name="" id="chooseHour">
                 <option value=""> 9.00</option>
                 <option value="">10.00</option>
@@ -58,76 +58,53 @@
         <table class="schedule">
 
             <tr>
-                <td class="hour" rowspan="2">9.00</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour" rowspan="2">10.00</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour" rowspan="2">11.00</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour" rowspan="2">12.00</td>
-                <td></td>
-            </tr>
-            <tr >
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour" rowspan="2">13.00</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour" rowspan="2">14.00</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour" rowspan="2">15.00</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour" rowspan="2">16.00</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour" rowspan="2">17.00</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="buttom"></td>
-            </tr>
-            <tr>
-                <td class="hour last" rowspan="2">18.00</td>
-                <td></td>
-            </tr>
-            <tr>
+                <td class="hour" >9.00</td>
                 <td></td>
             </tr>
 
+            <tr>
+                <td class="hour" >10.00</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="hour">11.00</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="hour">12.00</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="hour">13.00</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="hour">14.00</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="hour" >15.00</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="hour">16.00</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="hour">17.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="hour last">18.00</td>
+                <td class="buttom last"></td>
+            </tr>
 
         </table>
 
@@ -148,6 +125,7 @@
 
 
 </div>
+
 
 </body>
 </html>
