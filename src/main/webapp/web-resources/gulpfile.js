@@ -14,14 +14,17 @@ gulp.task("sass", function () {
 gulp.task("watch:sass", function () {
     gulp.watch("./scss/**/*.scss", ["sass"]);
 });
+
 gulp.task("browser-sync", function () {
-    browserSync.init({
+    browserSync.init(["css/*.css", "js/*.js"],{
 
         proxy: "http://localhost:8080"
 
     });
 });
-// gulp.task("main", gulp.parallel("watch:sass", "browser-sync"));
+
+gulp.task('start', ['watch:sass', 'browser-sync']);
+
 
 
 

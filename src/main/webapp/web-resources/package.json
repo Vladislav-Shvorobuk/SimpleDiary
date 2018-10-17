@@ -5,8 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo 'build script executed'",
-    "start": "gulp browser-sync",
-    "watch": "gulp watch:sass"
+    "start": "gulp start"
   },
   "keywords": [],
   "author": "",
